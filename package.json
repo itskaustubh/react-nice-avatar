@@ -3,7 +3,7 @@
   "version": "1.1.3",
   "description": "react library for generating avatar",
   "main": "dist/index.js",
-  "types": "dist/react-nice-avatar.d.ts",
+  "types": "dist/index.d.ts",
   "scripts": {},
   "keywords": [
     "react",
@@ -26,6 +26,7 @@
     "@rollup/plugin-commonjs": "^19.0.0",
     "@rollup/plugin-node-resolve": "^13.0.0",
     "@rollup/plugin-replace": "^2.4.2",
+    "@rollup/plugin-typescript": "^8.2.1",
     "babel-eslint": "^10.1.0",
     "classnames": "^2.3.1",
     "dom-to-image": "^2.6.0",
@@ -47,7 +48,9 @@
     "rollup-plugin-livereload": "^2.0.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-scss": "^2.6.1",
-    "rollup-plugin-serve": "^1.1.0"
+    "rollup-plugin-serve": "^1.1.0",
+    "tslib": "^2.3.0",
+    "typescript": "^4.3.4"
   },
   "repository": {
     "type": "git",

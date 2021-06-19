@@ -16,7 +16,7 @@ build:
 	@rm -rf ./dist
 	@npx rollup -c rollup.config.js
 	@echo "Copy type into dist..."
-	@cp react-nice-avatar.d.ts dist/react-nice-avatar.d.ts
+	@cp src/index.d.ts dist/index.d.ts
 build-demo:
 	@echo "Building demo..."
 	@rm -rf ./demo/dist

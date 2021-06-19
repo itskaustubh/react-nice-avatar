@@ -1,8 +1,8 @@
-import React from "react";
-import PropTypes from "prop-types";
+import * as React from "react";
+import * as PropTypes from "prop-types";
 
 export default function Face(props) {
-  const { color } = props;
+  const { color: string } = props;
   const maskId = `mask${Math.round(Math.random() * 9999999)}`;
   const pathId = `path${Math.round(Math.random() * 9999999)}`;
   return (

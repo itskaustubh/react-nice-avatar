@@ -19,12 +19,16 @@ export interface AvatarConfig {
   bgColor?: string
 }
 
+export interface AvatarFullConfig extends AvatarConfig {
+  eyeBrowStyle?: 'up' | 'upWoman'
+}
+
 export interface NiceAvatarProps extends AvatarConfig {
   id?: string,
   className?: string,
   style?: Style
 }
 
-export const genConfig = (config?: AvatarConfig) => AvatarConfig
+export declare const genConfig: (config?: AvatarConfig) => AvatarFullConfig
 
 export default class ReactNiceAvatar extends React.Component<NiceAvatarProps> {}
